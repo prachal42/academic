@@ -142,7 +142,7 @@ c = 2
 sig = 5
 def Kern(x1,x2):
     return(np.exp(-(LA.norm(x1-x2)**2)/sig))
-We use nested for loops to populate the K matrix.
+#We use nested for loops to populate the K matrix.
 K = [[0 for x in range(n)] for y in range(n)]
 for i in range(n):
     for j in range(n):
